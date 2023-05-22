@@ -194,8 +194,17 @@ margin-bottom: 5px;
 
 
 main{
-    height: 600PX;
+    height: 200PX;
+
 }
+
+article > p{
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+font-size: 4em;
+text-align: center;
+margin-top: 300px;}
 
 /****************************** Foooter ***************************************/
 
