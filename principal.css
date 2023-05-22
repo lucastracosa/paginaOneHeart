@@ -85,7 +85,7 @@ header{
     display: none;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 400px) {
     .nav-bar{padding: 1.5rem 4rem;}
     .nav-item{ display: none;}
     .mobile-menu-icon{display: block;}
@@ -194,7 +194,7 @@ margin-bottom: 5px;
 
 
 main{
-    height: 200PX;
+    height: 290px
 
 }
 
@@ -207,6 +207,76 @@ text-align: center;
 margin-top: 300px;
 text-shadow: 5px 5px 15px #0f8cf2;}
 
+
+
+
+
+
+
+    
+}@media screen and (max-width: 1800px){
+    article > p{ 
+        margin-top: 180px;
+        font-size: 3em;
+        padding-left: 40px ;
+        padding-right: 40px;
+    }
+    main{
+        margin: 0px;
+        height: 100%vh;
+    }
+    
+
+ footer > .footer-div{
+ margin-left: 100px;
+
+    height: 100%vh;}
+    
+    
+} 
+@media screen and (max-width: 1400px){
+    article > p{ 
+        margin-top: 180px;
+        font-size: 3em;
+        padding-left: 40px ;
+        padding-right: 40px;
+    }
+    main{
+        margin: 0px;
+        height: 100%vh;
+    }
+
+ footer > .footer-div{
+ margin-left: 175px;
+
+ height: 100%vh;}
+
+} 
+    
+
+
+@media screen and (max-width: 800px){
+    article > p{ 
+        margin-top: 180px;
+        font-size: 3em;
+        padding-left: 40px ;
+        padding-right: 40px;
+    }
+    main{
+        margin: 0px;
+        height: 100%vh;
+    }
+
+ footer > .footer-div{
+ display: none;}
+footer > p{
+    margin-top: 170px;
+}
+    
+} 
+    
+
+
 /****************************** Foooter ***************************************/
 
 footer{
@@ -218,9 +288,14 @@ footer{
     padding: 30px 20px;
     color: white;
     list-style: none;
-  
-   
+     
 }
+
+.divprincipal{
+    margin: auto   
+    pading:auto
+}
+
 .footer-div{
     margin: 0px;
 }
